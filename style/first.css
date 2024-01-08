@@ -161,6 +161,7 @@ header .container h1 {
     font-weight: 600;
     padding: 20px;
 }
+
 #time-table .bac-light .column h3 span {
     color: #F00;
 }
@@ -175,4 +176,77 @@ header .container h1 {
     background: #F00;
     cursor: pointer;
     margin-bottom: 115px;
+}
+
+/* upcoming-deals */
+
+#upcoming-deals {
+    margin-top: 20px;
+}
+
+.for-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#upcoming-deals .sec-container .column {
+    width: 33%;
+    text-align: left;
+}
+
+#upcoming-deals .sec-container .column h5 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 54px;
+}
+
+#upcoming-deals .sec-container .column h2 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+#upcoming-deals .sec-container .column p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 60px;
+    text-align: left;
+    margin-bottom: 130px;
+}
+
+#upcoming-deals .sec-container .adding-bac {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-size: cover;
+    border-radius: 450px;
+}
+
+#upcoming-deals .sec-container .cloumn img {
+    width: 30%;
+    position: relative;
+}
+
+
+#upcoming-deals .sec-container .diff-design{
+   /* text-align: center; */
+   margin-left: 70px;
+}
+#upcoming-deals .sec-container .diff-design h1{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#upcoming-deals .sec-container .diff-design p{
+    text-align: left;
+    margin:20px auto;
+
+}
+#upcoming-deals .sec-container .diff-design img{
+    width: 33%;
+    position: bottom;
 }
