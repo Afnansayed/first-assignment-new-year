@@ -136,8 +136,43 @@ header .container h1 {
     font-weight: 700;
     line-height: normal;
     background: none;
+    cursor: pointer;
 }
 
-#party-tiket .sec-container .cloumn  img {
-   margin: 55px 115px; */
+#party-tiket .sec-container .cloumn img {
+    margin: 55px 115px;
+}
+
+/* time-table */
+#time-table {
+    margin-top: 50px;
+}
+
+#time-table .bac-light {
+    text-align: center;
+    background-color: rgb(255, 232, 232);
+    padding-top: 5px;
+}
+
+#time-table .bac-light .column h3 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+#time-table .bac-light .column h3 span {
+    color: #F00;
+}
+
+#time-table .bac-light .column button {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 25px;
+    border-radius: 8px;
+    background: #F00;
+    cursor: pointer;
+    margin-bottom: 115px;
 }
