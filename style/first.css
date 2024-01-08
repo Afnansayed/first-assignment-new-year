@@ -346,11 +346,105 @@ header .container h1 {
     font-size: 35px;
     font-weight: 900;
 }
-.sec-upper p{
+
+.sec-upper p {
     max-width: 800px;
     margin: 25px auto;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 400;
+}
+
+/* button */
+#subdcribe form{
+    max-width: 640px;
+    margin: 39px auto;
+    display: flex;
+}
+#subdcribe form input{
+    flex-grow: 1;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 400px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    outline: none;
+    padding: 24px;
+}
+#subdcribe form button{
+    color: #FFF;
+    background: #F00;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 400px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    outline: none;
+    padding: 24px;
+}
+/* footer style */
+
+footer {
+    margin-top: 120px;
+    background-color: rgba(7, 2, 17, 1);
+    */ */
+}
+
+.sec-container .first-row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sec-container .first-row * {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px;
+}
+
+.first-row .first-col {
+    margin-top: 120px;
+}
+footer .sec-container hr {
+    border: 0.5px solid #575353;
+    margin: 45px 0;
+}
+
+.second-row .second-col {
+    margin-left: 10px;
+    margin: 0px 450px;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row * {
+    margin-bottom: 120px;
+}
+
+.third-row h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.third-row button {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    cursor: pointer;
 }
