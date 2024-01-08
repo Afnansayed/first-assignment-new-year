@@ -150,7 +150,8 @@ header .container h1 {
 
 #time-table .bac-light {
     text-align: center;
-    background-color: rgb(255, 232, 232);
+    background-color: rgba(255, 0, 0, 0.05);
+    ;
     padding-top: 5px;
 }
 
@@ -230,23 +231,126 @@ header .container h1 {
 }
 
 
-#upcoming-deals .sec-container .diff-design{
-   /* text-align: center; */
-   margin-left: 70px;
+#upcoming-deals .sec-container .diff-design {
+    /* text-align: center; */
+    margin-left: 70px;
 }
-#upcoming-deals .sec-container .diff-design h1{
+
+#upcoming-deals .sec-container .diff-design h1 {
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
     margin-top: 30px;
 }
-#upcoming-deals .sec-container .diff-design p{
+
+#upcoming-deals .sec-container .diff-design p {
     text-align: left;
-    margin:20px auto;
+    margin: 20px auto;
 
 }
-#upcoming-deals .sec-container .diff-design img{
+
+#upcoming-deals .sec-container .diff-design img {
     width: 33%;
     position: bottom;
+}
+
+.adding-bac img {
+    margin: 30px;
+    margin-bottom: 15px;
+}
+
+/* bonus section */
+
+
+/* Our product */
+
+#our-product {
+    margin-top: 120px;
+}
+
+.sec-container .sec-heading h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec-container .sec-heading h1 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.sec-container .sec-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.sec-element .first-column img {
+    max-width: 400px;
+    margin: 24 auto;
+    border-radius: 15px;
+    margin: 24px 15px;
+    cursor: -webkit-zoom-in;
+    transition: 1;
+}
+
+.sec-element .first-column img:hover {
+    background: #070211;
+    opacity: 0.5;
+    cursor: -webkit-zoom-in;
+    transition: 1;
+}
+
+.sec-element .second-column img {
+    max-width: 400px;
+    margin: 24 auto;
+    border-radius: 15px;
+    margin: 24px 15px;
+    cursor: -webkit-zoom-in;
+    transition: 1;
+}
+
+.sec-element .second-column img:hover {
+    background: #fefdff;
+    opacity: 0.5;
+}
+
+/* suscribe  */
+#subdcribe {
+    margin-top: 110px;
+}
+
+#subdcribe .bac-bright {
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+#subdcribe .bac-bright * {
+    text-align: center;
+}
+
+.sec-upper img {
+    max-width: 150px;
+    margin: 60px 0 40px;
+}
+
+.sec-upper h1 {
+    color: #070211;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+.sec-upper p{
+    max-width: 800px;
+    margin: 25px auto;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
 }
