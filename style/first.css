@@ -290,15 +290,34 @@ header .container h1 {
 }
 
 /* photo edit */
-/* .sec-container .page-content{ */
-    margin-top: 45px;
+.page-content{
+    position: relative;
+    width: 100%;
 }
-/* .sec-container .page-content { */
-    max-width: 500px;
+.page-content .img-one{
+    position: absolute;
+    left: 800px;
+
 }
-/* .first-img-container .img-two {   */
- border-radius: 16px 16px 0px 0px;
-}*/
+.page-content .img-two{
+    margin-left: 900px;
+}
+.page-content .img-three{
+    background-image: url('../images/Rectangle\ 2.png');
+    background: no-repeat;
+}
+
+.page-content-second{
+    position: relative;
+    width: 100%;
+}
+.page-content-second .img-one{
+    position: absolute;
+    bottom:20px;
+}
+.page-content-second .img-two{
+    margin-left: 10px;
+}
 
 /* Our product */
 
@@ -428,6 +447,7 @@ header .container h1 {
     border-radius: 0px 50px 50px 0px;
     outline: none;
     padding: 24px;
+    cursor: pointer;
 }
 
 /* footer style */
