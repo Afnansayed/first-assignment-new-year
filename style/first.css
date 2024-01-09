@@ -19,7 +19,7 @@
 p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 13px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
 }
@@ -125,6 +125,8 @@ header .container h1 {
     text-align: left;
     margin-left: 90px;
     text-shadow: #070211;
+    text-shadow: #575353;
+    opacity: 1;
 }
 
 #party-tiket .sec-container .cloumn button {
@@ -287,6 +289,7 @@ header .container h1 {
     max-width:1000px;
     color: rgba(7, 2, 17, 0.60);
     margin: 2px auto;
+    font-size: 18px;
 }
 
 /* photo edit */
@@ -342,6 +345,8 @@ header .container h1 {
     font-weight: 400;
     max-width: 800px;
     margin-bottom: 50px;
+    text-shadow: #070211;
+    line-height: 20px;
 }
 
 .sec-element .first-column img {
@@ -406,6 +411,7 @@ header .container h1 {
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 400;
+    text-shadow: #575353;
 }
 
 /* button */
@@ -451,7 +457,6 @@ header .container h1 {
 footer {
     margin-top: 120px;
     background-color: rgba(7, 2, 17, 1);
-    */ */
 }
 
 .sec-container .first-row {
@@ -470,7 +475,9 @@ footer {
 .first-row .first-col {
     margin-top: 120px;
 }
-
+.first-row .icon-wi .img-felx{
+    display: flex;
+}
 footer .sec-container hr {
     border: 0.5px solid #575353;
     margin: 45px 0;
